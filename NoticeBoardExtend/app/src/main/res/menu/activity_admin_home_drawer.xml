@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/fragment_myprofile"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Admin Profile" />
+        <item
+            android:id="@+id/my_admin"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Activity of Admin" />
+        <item
+            android:id="@+id/log_out"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Sign Out" />
+    </group>
+</menu>
